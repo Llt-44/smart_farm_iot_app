@@ -27,7 +27,7 @@ class _SplashSreenUIState extends State<SplashSreenUI> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 208, 234, 169),
+      backgroundColor: Color.fromARGB(255, 208, 234, 169),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -40,7 +40,7 @@ class _SplashSreenUIState extends State<SplashSreenUI> {
               height: 40.0
               ),
             CircularProgressIndicator(
-              color: const Color.fromARGB(255, 105, 238, 53),
+              color: Color.fromARGB(255, 5, 5, 131),
             ),
           ],
         ) ,

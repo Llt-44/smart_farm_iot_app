@@ -15,7 +15,7 @@ class _HomeUIState extends State<HomeUI> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 1, 115, 45),
+        backgroundColor: Color.fromARGB(255, 1, 115, 45),
         title: const Text(
           'Smart Farm IOT',
           style: TextStyle(
@@ -50,7 +50,7 @@ class _HomeUIState extends State<HomeUI> {
                 ),
               ),
               style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromARGB(255, 4, 162, 2),
+                backgroundColor: Color.fromARGB(255, 84, 249, 47),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(5.0),
                 ),
@@ -66,18 +66,19 @@ class _HomeUIState extends State<HomeUI> {
                   builder:(context) => ShowSensorAllByDate(), // Replace with your desired screen
                 ));   
               },
-              child:Text(
-                'แสดงข้อมูลเซ็นเซอร์ทั้งหมด ด้วยวันที่เลือก',
+                child: Text(
+                'แสดงข้อมูลเซ็นเซอร์ทั้งหมด\nด้วยวันที่เลือก',
                 style: TextStyle(
-                  color: Colors.white,
+                  color: const Color.fromARGB(255, 255, 255, 255),
                 ),
-              ),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromARGB(255, 4, 162, 2),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(5.0),
+                textAlign: TextAlign.center,
                 ),
-                padding: EdgeInsets.all(15.0),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Color.fromARGB(255, 2, 26, 107),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(5.0),
+                  ),
+                  padding: EdgeInsets.all(15.0),
                 ),
               )  
           ],

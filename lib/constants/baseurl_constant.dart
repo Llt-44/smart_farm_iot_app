@@ -1,0 +1,1 @@
+String baseurl="https://lalita.sautechnology.com"; //URL ของ API ที่ใช้ในการดึงข้อมูลเซ็นเซอร์ทั้งหมด

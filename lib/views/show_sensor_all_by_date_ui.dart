@@ -11,9 +11,9 @@ class _ShowSensorAllByDateState extends State<ShowSensorAllByDate> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+      backgroundColor: Color.fromARGB(255, 255, 255, 255),
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 1, 115, 45),
+        backgroundColor: Color(0xFF01732D),
         title: const Text(
           'Smart Farm IOT (All Sensor By Date)',
           style: TextStyle(
@@ -21,6 +21,15 @@ class _ShowSensorAllByDateState extends State<ShowSensorAllByDate> {
           ),
         ),
         centerTitle: true,
+        leading: IconButton(
+          icon: Icon(
+            Icons.arrow_back_ios_new,
+            color: Colors.white,
+          ),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
       ),
     );
   }
